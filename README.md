@@ -1,6 +1,6 @@
 ![image](images/microchip.jpg) 
 
-## %repoDescritpion%
+## PIC24E DSPIC33E CODE EXAMPLES
 
 Board Image if any.
 
