@@ -101,7 +101,7 @@ pipeline {
         stage('Validate main.json') {            
             steps {
                script {                    
-                    validateMetaData()                   
+                    validateMetaData(unapprovedKeywordsOverrideList: "${UNAPPROVED_KEYWORDS_OVERRIDE_LIST}")                   
                 }
             }
         } 
