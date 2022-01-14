@@ -3,11 +3,11 @@
    "category":"com.microchip.ide.project",
    "content":{
       "metaDataVersion":"1.3.0",
-      "name":"com.microchip.mplabx.project.ce448-fir-adc-dma",
+      "name":"com.microchip.mplabx.project.adc-1msps",
       "version":"1.0.0",
-      "displayName":"ADC Sampling and FIR Filtering",
-      "projectName":"ce448-fir-adc-dma",
-      "shortDescription":"ADC Sampling and FIR Filtering",
+      "displayName":"ADC Sampling at 1.1MSPS",
+      "projectName":"adc-1msps",
+      "shortDescription":"ADC Sampling at 1.1MSPS",
       "ide":{
          "name":"MPLABX",
          "semverRange":">=5.50.0"
