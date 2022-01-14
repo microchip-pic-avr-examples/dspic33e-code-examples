@@ -33,7 +33,7 @@ pipeline {
         DEPLOY_BRANCH_LIST = "master"
 		/*When using the main.json schema version 1.3.0 or higher, the PORTAL will first reject registration attempt when an unapproved keyword is found, but can be forced to accept. 
 		  This argument is used to provide the list of unapproved keywords (also listed in main.json) which the deployment script will force the PORTAL to accept.*/
-		UNAPPROVED_KEYWORDS_OVERRIDE_LIST=""
+		UNAPPROVED_KEYWORDS_OVERRIDE_LIST="NONE"
         
         /*
             GitHub Page Stage Information
@@ -98,12 +98,12 @@ pipeline {
         }
         
         // Validate main.json file
-        stage('Validate main.json') {            
+		stage('Validate main.json') {            
             steps {
                script {                    
                     validateMetaData(
 					    unapprovedKeywordsOverrideList: "${UNAPPROVED_KEYWORDS_OVERRIDE_LIST}"
-					)                
+					)                   
                 }
             }
         } 
