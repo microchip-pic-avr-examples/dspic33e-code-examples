@@ -1,0 +1,47 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.3.0",
+      "name":"com.microchip.mplabx.project.ce400-adc-iir-filter",
+      "version":"1.0.0",
+      "displayName":"ADC Sampling and IIR Filtering",
+      "projectName":"ce400-adc-iir-filter",
+      "shortDescription":"ADC Sampling and IIR Filtering",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=5.50.0"
+      },
+      "compiler":{
+         "name":"XC16",
+         "semverRange":"^1.70.0"
+      },
+      "dfp":{
+         "name":"dsPIC33E-GM-GP-MC-GU-MU_DFP",
+         "semverRange":">=1.3.85"
+      },
+	  "configurator": {
+         "name": "MCC",
+         "semverRange": ">=4.0.1"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"DSPIC33EP512GM710,DSPIC33EP512MU810,DSPIC33EP256GP506",
+            "versionRange":"*"
+         }
+      },
+	  "peripherals":[
+         "ADC",
+      ],
+      "keywords":[
+         "ADC",
+         "Filter",
+		 "Signal Sampling",
+		 "Algorithm"
+      ]
+   }
+}

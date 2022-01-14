@@ -4,10 +4,10 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.pic24e-dspic33e-code-examples",
-      "version":"x.x.x",
-      "displayName":"xxxxxxxxxxxxxxx",
+      "version":"1.0.0",
+      "displayName":"PIC24E/DSPIC33E Code Examples",
       "projectName":"pic24e-dspic33e-code-examples",
-      "shortDescription":"xxxxxxxxxxxxxxx",
+      "shortDescription":"PIC24E/DSPIC33E Code Examples",
       "ide":{
          "name":"MPLABX",
          "semverRange":">=5.40.0"
@@ -17,8 +17,8 @@
          "semverRange":"^1.50.0"
       },
       "dfp":{
-         "name":"xxxxxxxxxxxxxxx",
-         "semverRange":">=x.x.x"
+         "name":"dsPIC33E-GM-GP-MC-GU-MU_DFP",
+         "semverRange":">=1.3.85"
       },
 	  "configurator": {
          "name": "MCC",
@@ -30,16 +30,17 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"xxxxxxxxxxxxxxx",
+            "name":"DSPIC33EP512GM710,DSPIC33EP512MU810,DSPIC33EP256GP506",
             "versionRange":"*"
          }
       },
 	  "peripherals":[
-         "GPIO",
+         "ADC",
       ],
       "keywords":[
-         "GPIO",
-         "UART"
+         "ADC",
+         "Filter",
+		 "Signal Sampling"
       ]
    }
 }

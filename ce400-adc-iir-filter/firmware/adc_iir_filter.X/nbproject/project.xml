@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>adc_iir_filter</name>
+            <creation-uuid>f026a86e-e5ca-4701-98ea-ff25ec32f8d7</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <asminc-extensions/>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../src</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>dspic33ep512gm710</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>dspic33ep512mu810</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>dspic33ep256gp506</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
