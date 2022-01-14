@@ -18,11 +18,7 @@
       },
       "dfp":{
          "name":"dsPIC33E-GM-GP-MC-GU-MU_DFP",
-         "semverRange":">=1.3.85"
-      },
-	  "configurator": {
-         "name": "MCC",
-         "semverRange": ">=4.0.1"
+         "semverRange":"^1.3.85"
       },
       "device":{
          "metaDataVersion":"1.0.0",
@@ -30,12 +26,12 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"DSPIC33EP512GM710,DSPIC33EP512MU810,DSPIC33EP256GP506",
+            "name":"DSPIC33EP512GM710",
             "versionRange":"*"
          }
       },
 	  "peripherals":[
-         "ADC",
+         "ADC"
       ],
       "keywords":[
          "ADC",
