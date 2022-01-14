@@ -7,7 +7,6 @@ This file contains the following sections:
 - Hardware Used
 - Software Used
 - Reconfiguring the project for a different dsPIC33E device
-- Revision History
 
 
 ## Description:
@@ -62,11 +61,3 @@ b. Re-build the MPLAB® project using the menu option:
    MPLAB X>>Build Main Project
 
 c. Download the hex file into the device and run.
-
-       
-## Revision History :
-
-    04/01/2006 - Initial Release of the Code Example
-	7/01/2010 - Code Example updated for dsPIC33E
-	1/22/2014  - Code Example updated for dspic33ep512gm710/dspic33ep512mu810/dspic33ep256gp506
-	01/08/2015 - TEST_MODE code added for test automation
