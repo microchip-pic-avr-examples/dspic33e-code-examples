@@ -26,7 +26,7 @@ pipeline {
             GitHub Deploy Stage Information
         */
         //This is the BitBucket source repo URL to be deployed
-        BITBUCKET_SOURCE_URL = 'https://bitbucket.microchip.com/scm/mcu16ce/pic24e-dspic33e-code-examples.git'  
+        BITBUCKET_SOURCE_URL = 'https://bitbucket.microchip.com/scm/mcu16ce/dspic33e-code-examples.git'  
         //Files or folders to be excluded from deployment, if multiple files or folders use comma separator
         DEPLOY_EXCLUDE_FOLDER_FILE_LIST = 'mchp_private,.mchp_private,sandbox,.sandbox'
         //Branch(s) to be deployed, if multiple branches use comma separator. DEPLOY_BRANCH_LIST is the target branch of the PR.
