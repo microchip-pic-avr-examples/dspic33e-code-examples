@@ -3,11 +3,11 @@
    "category":"com.microchip.ide.project",
    "content":{
       "metaDataVersion":"1.3.0",
-      "name":"com.microchip.mplabx.project.pic24e-dspic33e-code-examples",
+      "name":"com.microchip.mplabx.project.dspic33e-code-examples",
       "version":"1.0.0",
-      "displayName":"PIC24E/DSPIC33E Code Examples",
-      "projectName":"pic24e-dspic33e-code-examples",
-      "shortDescription":"PIC24E/DSPIC33E Code Examples",
+      "displayName":"DSPIC33E Code Examples",
+      "projectName":"dspic33e-code-examples",
+      "shortDescription":"DSPIC33E Code Examples",
       "ide":{
          "name":"MPLABX",
          "semverRange":">=5.50.0"
