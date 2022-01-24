@@ -3,7 +3,7 @@
    "category":"com.microchip.ide.project",
    "content":{
       "metaDataVersion":"1.3.0",
-      "name":"com.microchip.mplabx.project.adc-1msps",
+      "name":"com.microchip.mplabx.project.dspic33e-adc-1msps",
       "version":"1.0.0",
       "displayName":"ADC Sampling at 1.1MSPS",
       "projectName":"dspic33e-adc-1msps",

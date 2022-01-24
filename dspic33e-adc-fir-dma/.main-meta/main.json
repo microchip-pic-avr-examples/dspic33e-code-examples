@@ -6,7 +6,7 @@
       "name":"com.microchip.mplabx.project.dspic33e-adc-fir-dma",
       "version":"1.0.0",
       "displayName":"ADC Sampling and FIR Filtering",
-      "projectName":"fir-adc-dma",
+      "projectName":"dspic33e-adc-fir-dma",
       "shortDescription":"ADC Sampling and FIR Filtering",
       "ide":{
          "name":"MPLABX",

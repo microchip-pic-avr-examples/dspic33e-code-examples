@@ -6,7 +6,7 @@
       "name":"com.microchip.mplabx.project.dspic33e-adc-iir-filter",
       "version":"1.0.0",
       "displayName":"ADC Sampling and IIR Filtering",
-      "projectName":"adc-iir-filter",
+      "projectName":"dspic33e-adc-iir-filter",
       "shortDescription":"ADC Sampling and IIR Filtering",
       "ide":{
          "name":"MPLABX",
