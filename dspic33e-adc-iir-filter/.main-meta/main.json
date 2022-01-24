@@ -3,7 +3,7 @@
    "category":"com.microchip.ide.project",
    "content":{
       "metaDataVersion":"1.3.0",
-      "name":"com.microchip.mplabx.project.adc-iir-filter",
+      "name":"com.microchip.mplabx.project.dspic33e-adc-iir-filter",
       "version":"1.0.0",
       "displayName":"ADC Sampling and IIR Filtering",
       "projectName":"adc-iir-filter",

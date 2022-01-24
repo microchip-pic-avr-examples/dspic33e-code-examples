@@ -2,13 +2,6 @@
 
 ## ADC Sampling and IIR Filtering 
 
-This file contains the following sections:
-- Code Example Description
-- Hardware Used
-- Software Used
-- Reconfiguring the project for a different dsPIC33E device
-
-
 ## Description:
 
 In this example, ADC is configured to sample (AIN5) at 8Khz rate and converted data is assembled as 256 sample buffer before triggering filtering operation.
@@ -40,24 +33,9 @@ DMA interrupt service routine performs IIR filtering on the data buffer.
 ## Hardware Used
 
 - Explorer 16/32 Development Board (https://www.microchip.com/DM240001-2)
-- dspic33ep512gm710(https://www.microchip.com/ma330035) /dspic33ep512mu810 (https://www.microchip.com/MA330025-1)/ dspic33ep256gp506 (https://www.microchip.com/MA330030) PIM
+- dspic33ep512gm710 (https://www.microchip.com/ma330035) /dspic33ep512mu810 (https://www.microchip.com/MA330025-1)/ dspic33ep256gp506 (https://www.microchip.com/MA330030) PIM
 	
 ## Software Used 
 
 - MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
 - MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
-
-
-## Reconfiguring the project for a different dsPIC33E device:
-
-The Project/Workspace can be easily reconfigured for dspic33ep512gm710/dspic33ep512mu810/dspic33ep256gp506 device.
-Please use the following general guidelines:
-
-a. Change device selection within MPLAB® IDE to dspic33ep512gm710/dspic33ep512mu810/dspic33ep256gp506 device of
-   your choice by using the following menu option:
-   MPLAB X>>Configuration drop-down option>><Listed Device Configuration>
-
-b. Re-build the MPLAB® project using the menu option:
-   MPLAB X>>Build Main Project
-
-c. Download the hex file into the device and run.

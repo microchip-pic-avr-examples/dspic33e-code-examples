@@ -3,8 +3,8 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>adc_iir_filter</name>
-            <creation-uuid>f026a86e-e5ca-4701-98ea-ff25ec32f8d7</creation-uuid>
+            <name>dspic33e-adc-1msps</name>
+            <creation-uuid>c80e8b60-8129-4bb8-a1db-fa88366ad786</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>

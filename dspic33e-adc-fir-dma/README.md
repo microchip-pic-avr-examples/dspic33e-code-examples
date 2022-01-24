@@ -2,14 +2,7 @@
 
 ## ADC Sampling and FIR Filtering 
 
-This file contains the following sections:
-- Code Example Description
-- Hardware Used
-- Software Used
-- Reconfiguring the project for a different dsPIC33E device
-
-
-## Code Example Description:
+## Description:
 
 In this example, ADC is configured to sample (AN5) at 250 KHz rate and the converted data is assembled in a 480-sample buffer. This input data is then filtered using the block FIR filter function from the DSP library. A 20-tap filter is used.
 Timer 3 is setup to time-out every 4 microseconds (250 KHz rate). On every Timer3 time-out (every Ts = 4 microsecs), the ADC module will stop sampling and trigger a 10-bit A/D conversion. At that time, the conversion process starts and completes Tc = 12 * Tad = 1.2 microsecs later. 
@@ -62,20 +55,3 @@ DMA interrupt service routine sets flag for FIR filtering on the data buffer.
 - MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
 - MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
 
-Note :- The PPS configuration in the source files changes with the device being used. The user is advised
-to refer the datasheet and use the appropriate values for RPINR/RPOR registers for proper operation.
-
-
-# Reconfiguring the project for a different dsPIC33E device:
-
-The Project/Workspace can be easily reconfigured for dspic33ep512gm710/dspic33ep512mu810/dspic33ep256gp506 device.
-Please use the following general guidelines:
-
-a. Change device selection within MPLAB® IDE to dspic33ep512gm710/dspic33ep512mu810/dspic33ep256gp506 device of
-   your choice by using the following menu option:
-   MPLAB X>>Configuration drop-down option>><Listed Device Configuration>
-
-b. Re-build the MPLAB® project using the menu option:
-   MPLAB X>>Build Main Project
-
-c. Download the hex file into the device and run.
