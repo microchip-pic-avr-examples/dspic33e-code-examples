@@ -35,7 +35,8 @@
       ],
       "keywords":[
          "ADC",
-         "Filter"
+         "Filter",
+		 "Algorithm"
       ]
    }
 }
