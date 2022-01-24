@@ -16,7 +16,7 @@ void initDma0(void);
 DMA channel 0 is configured in ping-pong mode to move the converted data from ADC to DMA RAM on every sample/convert sequence. 
 It generates interrupt after every 16 sample transfer. 
 
-void __attribute__((__interrupt__)) _DMA0Interrupt(void);
+void \__attribute\__((\__interrupt\__)) _DMA0Interrupt(void);
 DMA interrupt service routine, moves the data from DMA buffer to ADC signal buffer and collects 256 samples.
 
 The Toggle frequency of one pulse should be around 240us(micro second), if the operating clock frequency at 40Mhz.
