@@ -1,25 +1,10 @@
 ![image](images/microchip.jpg) 
 
-## PIC24E DSPIC33E CODE EXAMPLES
+## DSPIC33E CODE EXAMPLES
 
-Board Image if any.
-
-## Summary
+This repository contains the code examples for DSPIC33E Device Families.
 
 
-## Related Documentation
-
-
-## Software Used 
-
-
-## Hardware Used
-
-
-## Setup
-
-
-## Operation
 
 
 
