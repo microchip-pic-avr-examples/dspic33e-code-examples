@@ -1,9 +1,7 @@
-# Project Name or repo name release version
+# DSPIC33E Code Examples v0.1.0
 ### Release Highlights
 
-
-
-### Features Added\Updated
+Initial Release of DSPIC33E code examples on GitHub.
 
 
 
