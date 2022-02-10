@@ -20,7 +20,7 @@ pipeline {
         */
         NOTIFICATION_EMAIL = 'e50beea8.microchip.com@amer.teams.ms'  
         // GitHub production organization name
-        GITHUB_PRODUCTION_ORGANIZATION = "microchip-pic-avr-solutions"
+        GITHUB_PRODUCTION_ORGANIZATION = "microchip-pic-avr-examples"
         
         /*
             GitHub Deploy Stage Information
