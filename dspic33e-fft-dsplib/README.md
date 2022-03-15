@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-##  FFT dsplib
+##  FFT DSPLIB
 
 ## Description:
 

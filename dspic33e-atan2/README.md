@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-##  atan2 Function
+##  ATAN2 FUNCTION
 
 ## Description:
 
