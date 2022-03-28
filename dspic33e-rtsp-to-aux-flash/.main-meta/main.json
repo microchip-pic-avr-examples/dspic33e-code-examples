@@ -1,0 +1,38 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.3.0",
+      "name":"com.microchip.mplabx.project.dspic33e-rtsp-to-aux-flash",
+      "version":"0.1.0",
+      "displayName":"RTSP of Auxiliary Flash Memory from Primary Flash Memory",
+      "projectName":"dspic33e-rtsp-to-aux-flash",
+      "shortDescription":"RTSP of Auxiliary Flash Memory from Primary Flash Memory",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=5.50.0"
+      },
+      "compiler":{
+         "name":"XC16",
+         "semverRange":"^2.00"
+      },
+      "dfp":{
+         "name":"dsPIC33E-GM-GP-MC-GU-MU_DFP",
+         "semverRange":"^1.3.85"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"dsPIC33EP512MU810",
+            "versionRange":"*"
+         }
+      },
+	  "peripherals":[
+      ],
+      "keywords":[
+      ]
+   }
+}
