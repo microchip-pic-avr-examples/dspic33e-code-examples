@@ -1,15 +1,17 @@
 ![image](../images/microchip.jpg)
 
-## Clock Switch
+## FLASH RTSP CODE EXAMPLE
 
 ## Description:
 
-In this example, CPU is initially configured to run from external secondary osc and then clock switching 
-is initiated to run from Internal FRC.
-The RA4 pin toggles at frequency of 1/8th of system clock frequency.
+In this code example for dsp33ep512mu810, a page of Flash memory (1024 instructions or 8 rows of 128 instruction) is read first.
+Then the page is erased fully. One row of the page is modified and written back to the flash.
 
-extern void clockSwitch(unsigned int r);
-This function selects the next clock input and initiates clock switch sequence.
+Following RTSP Application Program Interface (APIs) are used to perform the operation.
+
+Flash Memory is organised into ROWs of 128 instructions or 384 bytes
+RTSP allows the user to erase a PAGE of memory which consists of EIGHT ROWs (1024 instructions or 3072 bytes) at a time.
+RTSP allows the user to program a ROW (128 instructions or 384 bytes) at a time
 
 
 ## Hardware Used
