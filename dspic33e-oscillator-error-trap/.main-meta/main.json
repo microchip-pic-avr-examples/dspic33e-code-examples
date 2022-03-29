@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-oscillator-error-trap",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"Oscillator failure traps and Fail-safe Clock Monitoring",
       "projectName":"dspic33e-oscillator-error-trap",
       "shortDescription":"Oscillator failure traps and Fail-safe Clock Monitoring",
