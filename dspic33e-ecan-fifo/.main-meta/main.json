@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-ecan-fifo",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"Transmitting multiple messages from CAN1 and receiving it in CAN2 FIFO",
       "projectName":"dspic33e-ecan-fifo",
       "shortDescription":"Transmitting multiple messages from CAN1 and receiving it in CAN2 FIFO",
