@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-rtsp-to-aux-flash",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"RTSP of Auxiliary Flash Memory from Primary Flash Memory",
       "projectName":"dspic33e-rtsp-to-aux-flash",
       "shortDescription":"RTSP of Auxiliary Flash Memory from Primary Flash Memory",

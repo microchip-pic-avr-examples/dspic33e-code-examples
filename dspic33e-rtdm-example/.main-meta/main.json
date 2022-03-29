@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-rtdm-example",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"Using RTDM driver for communication with DMCI",
       "projectName":"dspic33e-rtdm-example",
       "shortDescription":"Using RTDM driver for communication with DMCI",
