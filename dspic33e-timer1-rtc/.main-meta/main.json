@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-timer1-rtc",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"Timer1 used in Real-Time Clock Applications",
       "projectName":"dspic33e-timer1-rtc",
       "shortDescription":"Timer1 used in Real-Time Clock Applications",

@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-spi-framed",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"SPI module running in different modes",
       "projectName":"dspic33e-spi-framed",
       "shortDescription":"SPI module running in different modes",

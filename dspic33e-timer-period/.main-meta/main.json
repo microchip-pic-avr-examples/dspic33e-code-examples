@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-timer-period",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"Using Timer1 for Period Interrupts",
       "projectName":"dspic33e-timer-period",
       "shortDescription":"Using Timer1 for Period Interrupts",
