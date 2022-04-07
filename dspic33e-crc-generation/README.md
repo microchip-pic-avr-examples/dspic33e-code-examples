@@ -6,8 +6,7 @@
 
 In this code examples, CRC module is used to generate CRC for input data.
 
-
-CRC_Calc_ChecksumByte()
+CRC_Calc_ChecksumByte()  
 This function calculates the CRC Checksum for the array of bytes provided by the user based on the polynomial 
 set in the CRCXORH and CRCXORL registers
 
@@ -25,6 +24,6 @@ The CRC16 and CRC32 polynomials require 0x0000 to be loaded as the initial value
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

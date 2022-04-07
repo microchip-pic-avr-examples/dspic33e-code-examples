@@ -8,7 +8,7 @@ In this example, CPU is initially configured to run from external secondary osc 
 is initiated to run from Internal FRC.
 The RA4 pin toggles at frequency of 1/8th of system clock frequency.
 
-extern void clockSwitch(unsigned int r);
+extern void clockSwitch(unsigned int r);  
 This function selects the next clock input and initiates clock switch sequence.
 
 
@@ -20,6 +20,6 @@ This function selects the next clock input and initiates clock switch sequence.
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

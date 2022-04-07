@@ -10,7 +10,7 @@
       "shortDescription":"Math Error Traps for Robust Operation",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=5.50.0"
+         "semverRange":">=6.00"
       },
       "compiler":{
          "name":"XC16",
@@ -26,7 +26,7 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"DSPIC33EP512MU810",
+            "name":"dsPIC33EP512MU810",
             "versionRange":"*"
          }
       },

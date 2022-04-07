@@ -8,7 +8,8 @@ This code shows an example of setting the Open Drain Configuration for a generic
 The open-drain feature allows the generation of outputs higher than VDD
 (e.g., 5V on a 5V tolerant pin)by using external pull-up resistors.
 An external Pull up resistor should be connected for the port configured as
-open drain output.
+open drain output.  
+
 Open drain output is default high because of the external pull up resistor.
 In software the port configured as open drain is set to low during initialization
 and set as high when Switch S3 is pressed.
@@ -22,6 +23,6 @@ Refer ce419_i2c_eeprom code example for a peripheral configured as open drain ou
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

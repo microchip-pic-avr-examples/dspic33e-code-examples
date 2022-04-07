@@ -10,17 +10,17 @@ automatic Math Error Trap detection.
 
 Math errors may be caused by one of the following:
 
-a. Divide by Zero
+1.Divide by Zero
 
-b. Accumulator A overflow (bit 31 destroyed)
+2.Accumulator A overflow (bit 31 destroyed)
 
-c. Accumulator B Overflow (bit 31 destroyed)
+3.Accumulator B Overflow (bit 31 destroyed)
 
-d. Catastrophic overflow of Accumulator A (bit 39 destroyed)
+4.Catastrophic overflow of Accumulator A (bit 39 destroyed)
 
-e. Catastrophic overflow of Accumulator B (bit 39 destroyed)
+5.Catastrophic overflow of Accumulator B (bit 39 destroyed)
 
-f. Accumulator Shift count error
+6.Accumulator Shift count error
 
 If the application defines an Math Error Trap service routine (trap handler), the processor will vector to the 
 trap handler when it detects a math error.
@@ -43,6 +43,6 @@ optimization level of 0 is assumed for this file.
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 
