@@ -10,9 +10,9 @@ in the already programmed flash are modified and read back to verify the modific
 
 Following RTSP Application Program Interface (APIs) are used to perform the operation.
 
-// Flash Memory is organised into ROWs of 64 instructions or 192 bytes
-// RTSP allows the user to erase a PAGE of memory which consists of EIGHT ROWs (512 instructions or 1536byts) at a time.
-// RTSP allows the user to program a ROW (64 instructions or 192 bytes) at a time
+// Flash Memory is organised into ROWs of 64 instructions or 192 bytes<br/>
+// RTSP allows the user to erase a PAGE of memory which consists of EIGHT ROWs (512 instructions or 1536byts) at a time.<br/>
+// RTSP allows the user to program a ROW (64 instructions or 192 bytes) at a time<br/>
 
 ## Hardware Used
 
@@ -22,6 +22,6 @@ Following RTSP Application Program Interface (APIs) are used to perform the oper
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

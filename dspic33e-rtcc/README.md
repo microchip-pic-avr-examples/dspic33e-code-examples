@@ -7,17 +7,16 @@
 This code example aims to demonstrate the basic initialisation and operation of the Real Time Clock and Calender (RTCC) module.
 The user has to ensure the presence of a 32.768kHz secondary oscillator for the module to function as desired.
 
-
-void RTCCUnlock(void)
+void RTCCUnlock(void)<br/>
 This function enables the time and date value registers to be written
 
-void RtccInit(void)
+void RtccInit(void)<br/>
 This function initialises the time and date registers to the user defined values
 
-void RtccRead(void)
+void RtccRead(void)<br/>
 This function enables the time and date registers to be read
 
-void __attribute__((interrupt, no_auto_psv)) _RTCCInterrupt(void)
+void \_\_attribute\_\_((interrupt, no_auto_psv)) _RTCCInterrupt(void)<br/>
 This is the Interrupt Service Routine of the RTCC module
 
 User selected bit fields:
@@ -53,6 +52,6 @@ IV]RTCC CALIBRATION:
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

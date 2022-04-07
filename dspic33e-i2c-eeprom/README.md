@@ -10,41 +10,41 @@ then read back using I2C peripheral.
 I2C EEPROM driver module takes two inputs viz., Command and Data Object
 Driver supports two commands viz., Read and Write 
 
-// EEPROM DRIVER Module
-typedef struct { 
-        unsigned int	cmd; 		// Command Input
-	I2CEMEM_DATA	*oData;	       	// I2C Serial EEPROM Data Object
-        void (*init)(void *);                   
-        void (*tick)(void *); 
-        }I2CEMEM_DRV; 
+// EEPROM DRIVER Module<br/>
+typedef struct { <br/>
+        unsigned int	cmd; 		// Command Input<br/>
+	I2CEMEM_DATA	*oData;	       	// I2C Serial EEPROM Data Object<br/>
+        void (*init)(void *);     <br/>              
+        void (*tick)(void *); <br/>
+        }I2CEMEM_DRV; <br/>
 
 I2C Serial EEPROM data object contains EEPROM address location, data buffer, size
-of the data buffer and chip select bits for device addressing
-// Data Object
-typedef struct { 
-        unsigned int *buff;     	// Data Buffer 
-        unsigned int n;        		// Size of the Data Buffer
-        unsigned int addr;       	// EEPROM Address
-        unsigned int csel;            	// Chip Select bits (A2,A1,A0 bits)
-}I2CEMEM_DATA; 
+of the data buffer and chip select bits for device addressing<br/>
+// Data Object<br/>
+typedef struct { <br/>
+        unsigned int *buff;     	// Data Buffer <br/>
+        unsigned int n;        		// Size of the Data Buffer<br/>
+        unsigned int addr;       	// EEPROM Address<br/>
+        unsigned int csel;            	// Chip Select bits (A2,A1,A0 bits)<br/>
+}I2CEMEM_DATA; <br/>
 
 
-* I2C Serial EEPROM read/write operation begins with transmitting control byte first. 
+*I2C Serial EEPROM read/write operation begins with transmitting control byte first. 
 This control byte contains 8bits as shown below
- ------------------------------------
-| 1 | 0 | 1 | 0 | A2 | A1 | A0 | R/W |
- ------------------------------------
+ 
+ 
+	| 1 | 0 | 1 | 0 | A2 | A1 | A0 | R/W |
 
 1010 is the code used for I2C Serial EEPROM peripheral and A2,A1,A0 is used for chip select (csel).
 
 
-* After the control byte, address of serial EEPROM is sent for read/write operation
+*After the control byte, address of serial EEPROM is sent for read/write operation
 Small memory I2C EEPROM will use 1byte address and large memory I2C EEPROM will need 2byte addressing. 
 User must select either 1byte memory address or 2byte memory address using 
 i2cEmem.h file. 
 
-// EEPROM ADDRESS SIZE
-#define ADDRWIDTH   TWO_BYTE    
+// EEPROM ADDRESS SIZE<br/>
+#define ADDRWIDTH   TWO_BYTE    <br/>
 
 
 ## Hardware Used
@@ -55,6 +55,6 @@ i2cEmem.h file.
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 
