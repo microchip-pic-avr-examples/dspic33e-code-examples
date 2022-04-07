@@ -10,7 +10,7 @@
       "shortDescription":"Crosswire Communication between CAN 1 and CAN 2 modules",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=5.50.0"
+         "semverRange":">=6.00"
       },
       "compiler":{
          "name":"XC16",

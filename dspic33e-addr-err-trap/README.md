@@ -8,18 +8,18 @@ Microchip's 16-bit dsPIC® Digital Signal Controllers feature an on-chip mechanis
 take corrective action. Specifically, the ability to detect memory addressing errors is provided by means of 
 automatic Address Error Trap detection. Memory addressing errors may be caused by one of the following:
 
-a. A misaligned data word fetch is attempted. This condition occurs when an instruction performs a word 
+1.A misaligned data word fetch is attempted. This condition occurs when an instruction performs a word 
    access with the LSb of the effective address set to ‘1’. The dsPIC33E CPU requires all word accesses to 
    be aligned to an even address boundary.
 
-b. A bit manipulation instruction using the Indirect Addressing mode with the LSb of the effective address set to ‘1’.
+2.A bit manipulation instruction using the Indirect Addressing mode with the LSb of the effective address set to ‘1’.
 
-c. A data fetch from unimplemented data address space is attempted.
+3.A data fetch from unimplemented data address space is attempted.
 
-d. Execution of a “BRA #literal” instruction or a “GOTO #literal” instruction, where literal is an unimplemented 
+4.Execution of a “BRA #literal” instruction or a “GOTO #literal” instruction, where literal is an unimplemented 
    program memory address.
 
-e. Executing instructions after modifying the PC to point to unimplemented program memory addresses. 
+5.Executing instructions after modifying the PC to point to unimplemented program memory addresses. 
    The PC may be modified by loading a value into the stack and executing a RETURN instruction.
 
 If the application defines an Address Error Trap service routine (trap handler), the processor will vector to the 
@@ -39,6 +39,6 @@ an address error trap to occur. The compiler/assembler will also detect address 
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

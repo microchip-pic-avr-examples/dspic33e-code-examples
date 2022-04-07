@@ -9,12 +9,11 @@ Start of conversion is issued in the background loop and device enters sleep mod
 
 When the ADC conversion is completed in sleep mode, it wakes up the device and enters ADC ISR.
 
-
-void initAdc1(void);
+void initAdc1(void);<br/>
 ADC CH0 is set-up to covert AIN5 in 10-bit mode. ADC is configured to next sample data immediately after the conversion.
 But the start of conversion is issued manually in the background loop.
 
-void _ADC1Interrupt()
+void _ADC1Interrupt()<br/>
 Device enters the ADC ISR after waking up from sleep mode. ADC result is read in the ISR and PORTA (RA4) pin is toggled.
 
 
@@ -26,6 +25,6 @@ Device enters the ADC ISR after waking up from sleep mode. ADC result is read in
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

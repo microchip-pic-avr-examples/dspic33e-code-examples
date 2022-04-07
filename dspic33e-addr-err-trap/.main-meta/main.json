@@ -10,7 +10,7 @@
       "shortDescription":"Address Error Traps for Easy Debugging",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=5.50.0"
+         "semverRange":">=6.00"
       },
       "compiler":{
          "name":"XC16",

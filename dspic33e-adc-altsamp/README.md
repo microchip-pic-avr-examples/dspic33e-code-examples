@@ -25,11 +25,11 @@ Next, DMA uses DMA0STB base address to store the ADC samples and it generates in
 after transfer (TWO x 16 samples = 32 samples).
 Above process repeats continuously. 
 
-void __attribute__((__interrupt__)) _DMA0Interrupt(void);
+void \_\_attribute\_\_((\_\_interrupt\_\_)) _DMA0Interrupt(void);<br/>
 DMA interrupt service routine, moves the data from DMA buffer to ADC signal buffer 
 
-Timer time outs at 60M/(4999+1) = 12000 Hz.
-DMA interrupt @ 12K/32=  375 Hz.
+Timer time outs at 60M/(4999+1) = 12000 Hz.<br/>
+DMA interrupt @ 12K/32=  375 Hz.<br/>
 I/O pin toggles at 375/2= 187 Hz.
 
 RA4 pin is toggled in ISR, hence it will be toggling at ~ 187Hz
@@ -44,6 +44,6 @@ RA4 pin is toggled in ISR, hence it will be toggling at ~ 187Hz
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

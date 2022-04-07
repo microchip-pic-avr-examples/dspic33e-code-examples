@@ -13,7 +13,7 @@ It will take FOUR Timer3 Timeout period to scan through all the FOUR Analog inpu
 ADC module clock time period is configured as Tad=Tcy*(ADCS+1)= (1/40M)*64 = 1.6us (625Khz). 
 Hence the conversion time for 10-bit A/D Conversion Time Tc=12*Tad = 19.2us
 
-void __attribute__((__interrupt__)) _ADC1Interrupt(void)
+void \_\_attribute\_\_((\_\_interrupt\_\_)) _ADC1Interrupt(void)
 ADC ISR sorts out the data and stores the converted data in separated buffers.
 ISR rate will be 8Khz, RA6 pin is toggled in ISR, hence it will be toggling at ~ 4Khz
 
@@ -26,6 +26,6 @@ ISR rate will be 8Khz, RA6 pin is toggled in ISR, hence it will be toggling at ~
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 
