@@ -26,7 +26,7 @@ void initDma0(void);<br />
 DMA channel 0 is configured in ping-pong mode to move the converted data from ADC to DMA RAM on every sample/convert sequence. 
 It generates interrupt after every 256 sample transfer. 
 
-void \__attribute\__((\__interrupt\__)) _DMA0Interrupt(void);<br />
+void \_\_attribute\_\_((\_\_interrupt\_\_)) _DMA0Interrupt(void);<br />
 DMA interrupt service routine performs IIR filtering on the data buffer.
 
 

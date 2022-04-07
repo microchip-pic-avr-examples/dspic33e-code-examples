@@ -26,10 +26,10 @@ void cfgDma1SpiRx(void)<br/>
 This function configures DMA channel 0 for SPI reception. DMA is configured in ping-pong mode 
 with auto increment addressing for DMA memory write.
 
-void __attribute__((__interrupt__)) _DMA0Interrupt(void)<br/>
+void \_\_attribute\_\_((\_\_interrupt\_\_)) _DMA0Interrupt(void)<br/>
 This interrupt routine handles transmit DMA interrupt
 
-void __attribute__((__interrupt__)) _DMA1Interrupt(void)<br/>
+void \_\_attribute\_\_((\_\_interrupt\_\_)) _DMA1Interrupt(void)<br/>
 This interrupt routine handles the receive ping-pong buffer.
 
 
