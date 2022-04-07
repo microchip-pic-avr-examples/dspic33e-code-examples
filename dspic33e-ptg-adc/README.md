@@ -1,4 +1,4 @@
-
+![image](../images/microchip.jpg)
 
 ## PTG AND ADC 
 
