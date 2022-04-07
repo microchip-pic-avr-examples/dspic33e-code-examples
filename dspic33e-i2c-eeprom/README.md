@@ -12,11 +12,11 @@ Driver supports two commands viz., Read and Write
 
 // EEPROM DRIVER Module<br/>
 typedef struct { <br/>
-        unsigned int	cmd; 		// Command Input<br/>
+	unsigned int	cmd; 		// Command Input<br/>
 	I2CEMEM_DATA	*oData;	       	// I2C Serial EEPROM Data Object<br/>
-        void (*init)(void *);     <br/>              
-        void (*tick)(void *); <br/>
-        }I2CEMEM_DRV; <br/>
+	void (*init)(void *);               
+    void (*tick)(void *); <br/>
+    }I2CEMEM_DRV; <br/>
 
 I2C Serial EEPROM data object contains EEPROM address location, data buffer, size
 of the data buffer and chip select bits for device addressing<br/>
@@ -29,16 +29,16 @@ typedef struct { <br/>
 }I2CEMEM_DATA; <br/>
 
 
-*I2C Serial EEPROM read/write operation begins with transmitting control byte first. 
+* I2C Serial EEPROM read/write operation begins with transmitting control byte first. 
 This control byte contains 8bits as shown below
- 
- 
-	| 1 | 0 | 1 | 0 | A2 | A1 | A0 | R/W |
+
+| 1 | 0 | 1 | 0 | A2 | A1 | A0 | R/W |
+
 
 1010 is the code used for I2C Serial EEPROM peripheral and A2,A1,A0 is used for chip select (csel).
 
 
-*After the control byte, address of serial EEPROM is sent for read/write operation
+* After the control byte, address of serial EEPROM is sent for read/write operation
 Small memory I2C EEPROM will use 1byte address and large memory I2C EEPROM will need 2byte addressing. 
 User must select either 1byte memory address or 2byte memory address using 
 i2cEmem.h file. 
