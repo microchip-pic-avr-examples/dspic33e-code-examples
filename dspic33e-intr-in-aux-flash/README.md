@@ -6,9 +6,9 @@
 
 This example demonstrates how to handle interrupts in auxiliary flash. Timer1 interrupt is used to demonstrate this.
 
-aux_int.s 	- 	contains the default ISR for all interrupts in Aux flash <br/>
-init_timer1.c	-	initialise timer 1 interrupt<br/>
-main.c		-	contains main and ISR for timer 1<br/>
+aux_int.s 	- 	contains the default ISR for all interrupts in Aux flash   
+init_timer1.c	-	initialise timer 1 interrupt  
+main.c		-	contains main and ISR for timer 1  
 
 To use this example in your project, include the aux_int.s file.
 

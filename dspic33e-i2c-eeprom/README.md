@@ -10,23 +10,23 @@ then read back using I2C peripheral.
 I2C EEPROM driver module takes two inputs viz., Command and Data Object
 Driver supports two commands viz., Read and Write 
 
-// EEPROM DRIVER Module<br/>
-typedef struct { <br/>
-	unsigned int	cmd; 		// Command Input<br/>
-	I2CEMEM_DATA	*oData;	       	// I2C Serial EEPROM Data Object<br/>
+// EEPROM DRIVER Module  
+typedef struct {   
+	unsigned int	cmd; 		// Command Input  
+	I2CEMEM_DATA	*oData;	       	// I2C Serial EEPROM Data Object  
 	void (*init)(void *);               
-    void (*tick)(void *); <br/>
-    }I2CEMEM_DRV; <br/>
+    void (*tick)(void *);   
+    }I2CEMEM_DRV;   
 
 I2C Serial EEPROM data object contains EEPROM address location, data buffer, size
-of the data buffer and chip select bits for device addressing<br/>
-// Data Object<br/>
-typedef struct { <br/>
-        unsigned int *buff;     	// Data Buffer <br/>
-        unsigned int n;        		// Size of the Data Buffer<br/>
-        unsigned int addr;       	// EEPROM Address<br/>
-        unsigned int csel;            	// Chip Select bits (A2,A1,A0 bits)<br/>
-}I2CEMEM_DATA; <br/>
+of the data buffer and chip select bits for device addressing  
+// Data Object  
+typedef struct {   
+        unsigned int *buff;     	// Data Buffer   
+        unsigned int n;        		// Size of the Data Buffer  
+        unsigned int addr;       	// EEPROM Address  
+        unsigned int csel;            	// Chip Select bits (A2,A1,A0 bits)  
+}I2CEMEM_DATA;   
 
 
 * I2C Serial EEPROM read/write operation begins with transmitting control byte first. 
@@ -43,8 +43,8 @@ Small memory I2C EEPROM will use 1byte address and large memory I2C EEPROM will 
 User must select either 1byte memory address or 2byte memory address using 
 i2cEmem.h file. 
 
-// EEPROM ADDRESS SIZE<br/>
-#define ADDRWIDTH   TWO_BYTE    <br/>
+// EEPROM ADDRESS SIZE  
+#define ADDRWIDTH   TWO_BYTE      
 
 
 ## Hardware Used

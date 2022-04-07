@@ -7,16 +7,16 @@
 This code example aims to demonstrate the basic initialisation and operation of the Real Time Clock and Calender (RTCC) module.
 The user has to ensure the presence of a 32.768kHz secondary oscillator for the module to function as desired.
 
-void RTCCUnlock(void)<br/>
+void RTCCUnlock(void)  
 This function enables the time and date value registers to be written
 
-void RtccInit(void)<br/>
+void RtccInit(void)  
 This function initialises the time and date registers to the user defined values
 
-void RtccRead(void)<br/>
+void RtccRead(void)  
 This function enables the time and date registers to be read
 
-void \_\_attribute\_\_((interrupt, no_auto_psv)) _RTCCInterrupt(void)<br/>
+void \_\_attribute\_\_((interrupt, no_auto_psv)) _RTCCInterrupt(void)  
 This is the Interrupt Service Routine of the RTCC module
 
 User selected bit fields:

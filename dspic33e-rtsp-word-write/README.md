@@ -10,9 +10,9 @@ in the already programmed flash are modified and read back to verify the modific
 
 Following RTSP Application Program Interface (APIs) are used to perform the operation.
 
-// Flash Memory is organised into ROWs of 64 instructions or 192 bytes<br/>
-// RTSP allows the user to erase a PAGE of memory which consists of EIGHT ROWs (512 instructions or 1536byts) at a time.<br/>
-// RTSP allows the user to program a ROW (64 instructions or 192 bytes) at a time<br/>
+// Flash Memory is organised into ROWs of 64 instructions or 192 bytes  
+// RTSP allows the user to erase a PAGE of memory which consists of EIGHT ROWs (512 instructions or 1536byts) at a time.  
+// RTSP allows the user to program a ROW (64 instructions or 192 bytes) at a time  
 
 ## Hardware Used
 
