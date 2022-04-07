@@ -8,7 +8,7 @@ This code example shows using the SPI module in conjunction with 2 GPIO pins to 
 devices.  The concept is that the GPIO are the slave selects for the individual devices, but the SCL, SDI and SDO are shared between the two processors.  
 This is also scalable up to n devices, where your only limitation is the bus bandwidth on the SPI bus and the number of GPIO lines at your disposal.
 
-![image](../images/dspic33e-spi-2slaves.jpg)
+![image](../images/dspic33e-spi-2slaves.JPG)
 
 The code alternates between sending data from one device to another and mixed.
 

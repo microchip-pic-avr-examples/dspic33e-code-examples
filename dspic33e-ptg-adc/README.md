@@ -18,7 +18,7 @@ to process the acquired signal samples.
 RC6 is toggled in ADC interrupt,and also in PTG Interrupt 0.This is done for understanding.Sample
 timing diagram is shown below.
                    
-![image](../images/dspic33e-ptg-adc.jpg)
+![image](../images/dspic33e-ptg-adc.JPG)
 
 This can be reconfigured according to application requirement.
 

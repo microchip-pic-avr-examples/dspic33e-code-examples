@@ -6,7 +6,7 @@
 
 This code example shows using a single SPI module in conjunction with a GPIO to generate an SPI communication that will work with most SPI Slave devices.
 
-![image](../images/dspic33e-spi-no-dma.jpg)
+![image](../images/dspic33e-spi-no-dma.JPG)
 
 The code sends from 00h through FFh and then cycles through again.  A delay was added to permit catching the output on a logic analyzer easier.
 

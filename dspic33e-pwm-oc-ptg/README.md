@@ -25,7 +25,7 @@ In this example OC2 is configured for 25% duty cycle or 10us .
 
 And the OC1 and OC2 outputs are mapped to RP54,RP55 pin respectively.
                    
-![image](../images/dspic33e-pwm-oc-ptg.jpg)
+![image](../images/dspic33e-pwm-oc-ptg.JPG)
 
 This can be reconfigured according to application requirement. 
 

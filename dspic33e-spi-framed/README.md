@@ -7,12 +7,12 @@
 This code shows an example of running the SPI module in different modes.  The first mode is for outputting to a
 single device which requires a Framed SPI mode.  
 
-![image](../images/dspic33e-spi-framed-1.jpg)
+![image](../images/dspic33e-spi-framed-1.JPG)
 
 The second example is for a device which can accept a string of clocks,
 but will only respond to the byte after the frame bit.
 
-![image](../images/dspic33e-spi-framed-2.jpg)
+![image](../images/dspic33e-spi-framed-2.JPG)
 
 The code also goes through the 4 combinations of CKP and CKE.
 
