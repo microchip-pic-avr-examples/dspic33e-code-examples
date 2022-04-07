@@ -25,11 +25,11 @@ Next, DMA uses DMA0STB base address to store the ADC samples and it generates in
 after transfer (TWO x 16 samples = 32 samples).
 Above process repeats continuously. 
 
-void \_\_attribute\_\_((\_\_interrupt\_\_)) _DMA0Interrupt(void);<br/>
+void \_\_attribute\_\_((\_\_interrupt\_\_)) _DMA0Interrupt(void);  
 DMA interrupt service routine, moves the data from DMA buffer to ADC signal buffer 
 
-Timer time outs at 60M/(4999+1) = 12000 Hz.<br/>
-DMA interrupt @ 12K/32=  375 Hz.<br/>
+Timer time outs at 60M/(4999+1) = 12000 Hz.  
+DMA interrupt @ 12K/32=  375 Hz.  
 I/O pin toggles at 375/2= 187 Hz.
 
 RA4 pin is toggled in ISR, hence it will be toggling at ~ 187Hz

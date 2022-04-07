@@ -9,11 +9,11 @@ Start of conversion is issued in the background loop and device enters sleep mod
 
 When the ADC conversion is completed in sleep mode, it wakes up the device and enters ADC ISR.
 
-void initAdc1(void);<br/>
+void initAdc1(void);  
 ADC CH0 is set-up to covert AIN5 in 10-bit mode. ADC is configured to next sample data immediately after the conversion.
 But the start of conversion is issued manually in the background loop.
 
-void _ADC1Interrupt()<br/>
+void _ADC1Interrupt()  
 Device enters the ADC ISR after waking up from sleep mode. ADC result is read in the ISR and PORTA (RA4) pin is toggled.
 
 
