@@ -17,9 +17,9 @@ phase shift of half the PWM period between OC1 and OC2 outputs.
 
 PTG Timer is configured for delay of 20us and calculation is as follows:
 
-Required delay: 20us<br/>
-PTG Clock: 70MHz<br/>
-COunt in PTGT0LIm: 20us/(1/70MHz) = 20us*70Mhz = 1400;<br/>
+Required delay: 20us  
+PTG Clock: 70MHz  
+COunt in PTGT0LIm: 20us/(1/70MHz) = 20us*70Mhz = 1400;  
 
 In this example OC2 is configured for 25% duty cycle or 10us .
 

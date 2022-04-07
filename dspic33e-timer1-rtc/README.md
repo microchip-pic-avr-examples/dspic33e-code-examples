@@ -9,7 +9,7 @@ timers. Of these, the Timer1 module has the capability to be clocked by
 an external asynchronous 32KHz crystal connected to the device via the
 SOSCI and SOSCO pins. The attached code example demonstrates how Timer1
 may be configured to use the 32KHz secondary oscillator for a real-time
-clock (RTC) application.<br/><br/>
+clock (RTC) application.    
 Configuring Timer1 for the real-time clock application is a two-step
 process. In the first step, the code demonstrates how the secondary
 oscillator may be enabled via a special write sequence to the OSCCON

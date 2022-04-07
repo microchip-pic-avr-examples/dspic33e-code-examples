@@ -12,9 +12,9 @@ The code sends from 00h through FFh and then cycles through again.  A delay was 
 
 Externally Connect for testing:
 -------------------------------
-RF7 & RF8 on Expl16 board for dspic33ep256GP506 PIM<br/>
-RF7 & RF8 on Expl16 board for dspic33ep512gm710 PIM<br/>
-RF2 & RF3 on Expl16 board for dspic33ep512mu810 PIM<br/>
+RF7 & RF8 on Expl16 board for dspic33ep256GP506 PIM  
+RF7 & RF8 on Expl16 board for dspic33ep512gm710 PIM  
+RF2 & RF3 on Expl16 board for dspic33ep512mu810 PIM  
 
 
 ## Hardware Used

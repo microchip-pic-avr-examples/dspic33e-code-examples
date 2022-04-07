@@ -8,15 +8,15 @@ In this example, ADC is set up to convert AIN0 using CH0 and CH1 sample/hold in 
 at 1.1MHz throughput rate. ADC clock is configured at 13.3Mhz or Tad=75ns
 ADC Conversion Time for 10-bit conversion is Tc=12 * Tab =  900ns (1.1MHz).
 
-void initAdc1(void);<br />
+void initAdc1(void);  
 ADC CH0 and CH1 S/H is set-up to covert AIN0 in 10-bit mode. ADC is configured to next sample data immediately after the conversion.
 So, ADC keeps conversion data through CH0/CH1 S/H alternatively. Effective conversion rate is 1.1Mhz
 
-void initDma0(void);<br />
+void initDma0(void);  
 DMA channel 0 is configured in ping-pong mode to move the converted data from ADC to DMA RAM on every sample/convert sequence. 
 It generates interrupt after every 16 sample transfer. 
 
-void \_\_attribute\_\_((\_\_interrupt\_\_)) _DMA0Interrupt(void);<br />
+void \_\_attribute\_\_((\_\_interrupt\_\_)) _DMA0Interrupt(void);  
 DMA interrupt service routine, moves the data from DMA buffer to ADC signal buffer and collects 256 samples.
 
 The Toggle frequency of one pulse should be around 240us(micro second), if the operating clock frequency at 40Mhz.

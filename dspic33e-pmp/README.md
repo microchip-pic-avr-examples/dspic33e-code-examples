@@ -12,16 +12,16 @@ The PMP module is configured in the Master Mode.
 Set the I/O ports as digital ports.
 
 
-mLDCInit()<br />
+mLDCInit()  
 This function will initialise the LCDinit pointer to sets LCDState mchine to _uLCDstate = 2
 
 
-TimerInit()<br />
+TimerInit()  
 This function will enable to run the Timer
 
 
-BannerStart()<br />
-This function will enable to Setup the banner processing<br />
+BannerStart()  
+This function will enable to Setup the banner processing  
 The following events are performed in this function
 -  Check if the LCD is busy
 -  Set the Cursor to the starting point
@@ -30,22 +30,22 @@ The following events are performed in this function
 
 In the While loop the following events follow.
 
-LCDProcessEvents()<br />
+LCDProcessEvents()  
 This is a state machine to issue commands and data to LCD. Must be called periodically to make LCD message processing.
 The communication with the LCD module is enabled through the PMP module.
 This function Initialises the LCD function + Processes a series of LCD events.
 
--  Initialises the LCD function.<br />
+-  Initialises the LCD function.  
    Open the PMP module for communication with LCD ( Case2) 
    complete a set of events to initialise the LCD from (Case 64 to case 71)
    Clear the LCD state machine i.e (_uLCDstate = 0)
 
 
-TimerIsOverflowEvent()<br />
+TimerIsOverflowEvent()  
 Only on timer Overflow the BannerProcessEvents is processed
 
 
-BannerProcessEvents()<br />
+BannerProcessEvents()  
 -  Display the Banner array 
    Pick the character to be displayed from the banner pointer
    Prepare the character for display
