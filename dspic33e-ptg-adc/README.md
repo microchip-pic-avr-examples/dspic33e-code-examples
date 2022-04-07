@@ -1,4 +1,4 @@
-![image](../images/microchip.jpg)
+
 
 ## PTG AND ADC 
 
@@ -18,39 +18,10 @@ to process the acquired signal samples.
 RC6 is toggled in ADC interrupt,and also in PTG Interrupt 0.This is done for understanding.Sample
 timing diagram is shown below.
                    
-
-                   .                                                                                 .
-                   .                                                                                 .
-                   .<----------------------------------------------Period = 50us------------------- >.
-                    ______________________________________                                            _______
-                   |                                      |                                          |                          	                                                                   |          |
-PWM1H    	___|<--5us-->                             |__________________________________________|
-              ___                                            ______________________________________                                                              
-                 |                                          |                                      |          		                                      
-PWM1L    	 |__________________________________________|<-------10us------>                   |_________
-                  _                                                                                 _
-                 | |                                                                               | |                        	                                                                   |          |
-SYNCO(RP55)   ___| |_______________________________________________________________________________| |________
-
-                  ______________________________________        ______        _______        __                      
-                 |                                      |      |      |      |       |      |  |                                                                            	                                                                   |          |
-RC6           ___|                                      |______|      |______|       |______|  |______________
-
-
+![image](../images/dspic33e-ptg-adc.jpg)
 
 This can be reconfigured according to application requirement.
 
-
-2. Folder Contents:
--------------------
-a. firmware
-        This folder contains all the C, Assembler source files and  include files
-	(*.c,*.s,*.h) used in demonstrating the described example. 
-b. system_config
-		This folder contains all the xxx_config.c file, which contain basic configuration routines and pin-remap code for a specific platform.
-c. exp16/
-		This folder contains various folders like dspic33ep512gm710, depending on the platform.Each platform can folder contain,configuration specific 
-		source files.
 
 ## Hardware Used
 
@@ -59,6 +30,6 @@ c. exp16/
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

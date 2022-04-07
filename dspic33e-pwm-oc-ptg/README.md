@@ -17,27 +17,15 @@ phase shift of half the PWM period between OC1 and OC2 outputs.
 
 PTG Timer is configured for delay of 20us and calculation is as follows:
 
-Required delay: 20us
-PTG Clock: 70MHz
-COunt in PTGT0LIm: 20us/(1/70MHz) = 20us*70Mhz = 1400;
+Required delay: 20us<br/>
+PTG Clock: 70MHz<br/>
+COunt in PTGT0LIm: 20us/(1/70MHz) = 20us*70Mhz = 1400;<br/>
 
 In this example OC2 is configured for 25% duty cycle or 10us .
 
 And the OC1 and OC2 outputs are mapped to RP54,RP55 pin respectively.
                    
-
-                   .                                                                                 .
-                   .                                                                                 .
-                   .<----------------------------------------------Period = 20us------------------- >.
-                    __________                                                                        __________
-                   |          |	                                                                     |          |
-OC1(RP54) 	___|<--5us--> |______________________________________________________________________|          |_____________________________________
-                   .                                         ____________________                                                              _______
-                   .                                        |                    |          		                                      |
-OC2(RP55)	____________________________________________|<-------10us------> |____________________________________________________________|
-                   .                                        .                                                                                 .
-                   .                                        .                                                                                 .
-                   .<------Phase shift = 20us------------- >.<--------------------------------- Period = 40us--------------------------------->
+![image](../images/dspic33e-pwm-oc-ptg.jpg)
 
 This can be reconfigured according to application requirement. 
 
@@ -49,6 +37,6 @@ This can be reconfigured according to application requirement.
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLABï¿½ X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLABï¿½ XC16 v2.00 or newer (https://www.microchip.com/xc)
 

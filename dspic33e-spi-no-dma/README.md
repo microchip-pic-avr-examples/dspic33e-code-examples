@@ -6,21 +6,15 @@
 
 This code example shows using a single SPI module in conjunction with a GPIO to generate an SPI communication that will work with most SPI Slave devices.
 
-Slave Select  ---------------------------------------------| 			           |-----------------
-		                                           |_______________________________|
-
-SCLK   xxxxxxxxxx |-| |-| |-| |-| |-| |-| |-| |-| xxxxxxxxxx |-| |-| |-| |-| |-| |-| |-| |-| xxxxxxxxxx
-       xxxxxxxxxx_| |_| |_| |_| |_| |_| |_| |_| |_xxxxxxxxxx_| |_| |_| |_| |_| |_| |_| |_| |_xxxxxxxxxx
-
-SDO    xxxxxxxxxx d7  d6  d5  d4  d3  d2  d1  d0  xxxxxxxxxx d7  d6  d5  d4  d3  d2  d1  d0  xxxxxxxxxx
+![image](../images/dspic33e-spi-no-dma.jpg)
 
 The code sends from 00h through FFh and then cycles through again.  A delay was added to permit catching the output on a logic analyzer easier.
 
 Externally Connect for testing:
 -------------------------------
-RF7 & RF8 on Expl16 board for dspic33ep256GP506 PIM
-RF7 & RF8 on Expl16 board for dspic33ep512gm710 PIM
-RF2 & RF3 on Expl16 board for dspic33ep512mu810 PIM
+RF7 & RF8 on Expl16 board for dspic33ep256GP506 PIM<br/>
+RF7 & RF8 on Expl16 board for dspic33ep512gm710 PIM<br/>
+RF2 & RF3 on Expl16 board for dspic33ep512mu810 PIM<br/>
 
 
 ## Hardware Used
@@ -31,6 +25,6 @@ RF2 & RF3 on Expl16 board for dspic33ep512mu810 PIM
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

@@ -8,16 +8,7 @@ This code example shows using the SPI module in conjunction with 2 GPIO pins to 
 devices.  The concept is that the GPIO are the slave selects for the individual devices, but the SCL, SDI and SDO are shared between the two processors.  
 This is also scalable up to n devices, where your only limitation is the bus bandwidth on the SPI bus and the number of GPIO lines at your disposal.
 
-Slave Select1 ---|			          |---------------------------------------------------------
-		 |________________________________|
-
-Slave Select2 ---------------------------------------------| 			           |-----------------
-		                                           |_______________________________|
-
-SCLK   xxxxxxxxxx |-| |-| |-| |-| |-| |-| |-| |-| xxxxxxxxxx |-| |-| |-| |-| |-| |-| |-| |-| xxxxxxxxxx
-       xxxxxxxxxx_| |_| |_| |_| |_| |_| |_| |_| |_xxxxxxxxxx_| |_| |_| |_| |_| |_| |_| |_| |_xxxxxxxxxx
-
-SDO    xxxxxxxxxx d7  d6  d5  d4  d3  d2  d1  d0  xxxxxxxxxx d7  d6  d5  d4  d3  d2  d1  d0  xxxxxxxxxx
+![image](../images/dspic33e-spi-2slaves.jpg)
 
 The code alternates between sending data from one device to another and mixed.
 
@@ -29,6 +20,6 @@ The code alternates between sending data from one device to another and mixed.
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

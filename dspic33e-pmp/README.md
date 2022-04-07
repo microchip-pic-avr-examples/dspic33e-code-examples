@@ -12,16 +12,16 @@ The PMP module is configured in the Master Mode.
 Set the I/O ports as digital ports.
 
 
-mLDCInit()
+mLDCInit()<br />
 This function will initialise the LCDinit pointer to sets LCDState mchine to _uLCDstate = 2
 
 
-TimerInit()
+TimerInit()<br />
 This function will enable to run the Timer
 
 
-BannerStart()
-This function will enable to Setup the banner processing
+BannerStart()<br />
+This function will enable to Setup the banner processing<br />
 The following events are performed in this function
 -  Check if the LCD is busy
 -  Set the Cursor to the starting point
@@ -30,22 +30,22 @@ The following events are performed in this function
 
 In the While loop the following events follow.
 
-LCDProcessEvents()
+LCDProcessEvents()<br />
 This is a state machine to issue commands and data to LCD. Must be called periodically to make LCD message processing.
 The communication with the LCD module is enabled through the PMP module.
 This function Initialises the LCD function + Processes a series of LCD events.
 
--  Initialises the LCD function.
+-  Initialises the LCD function.<br />
    Open the PMP module for communication with LCD ( Case2) 
    complete a set of events to initialise the LCD from (Case 64 to case 71)
    Clear the LCD state machine i.e (_uLCDstate = 0)
 
 
-TimerIsOverflowEvent()
+TimerIsOverflowEvent()<br />
 Only on timer Overflow the BannerProcessEvents is processed
 
 
-BannerProcessEvents()
+BannerProcessEvents()<br />
 -  Display the Banner array 
    Pick the character to be displayed from the banner pointer
    Prepare the character for display
@@ -62,6 +62,6 @@ The banner is displayed sequentially.
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

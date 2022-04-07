@@ -7,26 +7,13 @@
 This code shows an example of running the SPI module in different modes.  The first mode is for outputting to a
 single device which requires a Framed SPI mode.  
 
-Slave Select ----|			          |-----------------
-		 |________________________________|
-
-SCLK   xxxxxxxxxx |-| |-| |-| |-| |-| |-| |-| |-| xxxxxxxxxx
-       xxxxxxxxxx_| |_| |_| |_| |_| |_| |_| |_| |_xxxxxxxxxx
-
-SDA    xxxxxxxxxx d7  d6  d5  d4  d3  d2  d1  d0  xxxxxxxxxx
-       
+![image](../images/dspic33e-spi-framed-1.jpg)
 
 The second example is for a device which can accept a string of clocks,
 but will only respond to the byte after the frame bit.
 
-Slave Select  |--|			         
-	    __|	 |__________________________________________
+![image](../images/dspic33e-spi-framed-2.jpg)
 
-SCLK    |-| |-| |-| |-| |-| |-| |-| |-| |-| |-| |-| |-| |-| |-| xxxxxxxxxx
-       _| |_| |_| |_| |_| |_| |_| |_| |_| |_| |_| |_| |_| |_| |_xxxxxxxxxx
-
-SDA    xxxxxxxxxx   d7  d6  d5  d4  d3  d2  d1  d0  xxxxxxxxxx
-       
 The code also goes through the 4 combinations of CKP and CKE.
 
 
@@ -38,6 +25,6 @@ The code also goes through the 4 combinations of CKP and CKE.
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 
