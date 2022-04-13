@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## USING RTDM DRIVER FOR COMMUNICATION WITH DMCI 
+## Using RTDM driver for communication with DMCI 
 
 ## Description:
 

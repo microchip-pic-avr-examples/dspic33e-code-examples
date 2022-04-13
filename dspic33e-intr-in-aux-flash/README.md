@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## INTR IN AUX FLASH 
+## Intr In AUX Flash 
 
 ## Description:
 

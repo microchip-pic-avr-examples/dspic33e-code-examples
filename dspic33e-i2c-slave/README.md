@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## USING I2C MODULE AS SLAVE DEVICE
+## Using I2C module as Slave device
 
 ## Description:
 

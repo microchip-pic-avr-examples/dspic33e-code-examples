@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## I2C SERIAL EEPROM INTERFACE 
+## I2C Serial EEPROM Interface 
 
 ## Description:
 

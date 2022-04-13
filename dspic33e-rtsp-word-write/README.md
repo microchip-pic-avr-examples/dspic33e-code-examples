@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## RTSP WORD WRITE
+## RTSP Word Write
 
 ## Description:
 

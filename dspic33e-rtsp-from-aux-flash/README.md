@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## RTSP OF PRIMARY FLASH MEMORY FROM AUXILIARY FLASH MEMORY
+## RTSP of Primary Flash Memory from Auxiliary Flash Memory
 
 ## Description:
 
