@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## CRC GENERATION 
+## CRC Generation 
 
 ## Description:
 

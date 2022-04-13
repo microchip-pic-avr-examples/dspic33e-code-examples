@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## FLASH RTSP CODE EXAMPLE
+## Flash RTSP code example
 
 ## Description:
 

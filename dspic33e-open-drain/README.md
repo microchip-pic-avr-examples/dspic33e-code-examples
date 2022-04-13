@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## OPEN DRAIN CONFIGURATION 
+## Open Drain Configuration 
 
 ## Description:
 

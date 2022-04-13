@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## CPU IN DOZE MODE
+## CPU in DOZE MODE
 
 ## Description:
 

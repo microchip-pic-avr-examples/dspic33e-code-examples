@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## MATH ERROR TRAPS FOR ROBUST OPERATION
+## Math Error Traps for Robust Operation
 
 ## Description:
 

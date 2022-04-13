@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## OSCILLATOR FAILURE TRAPS AND FAIL-SAFE CLOCK MONITORING 
+## Oscillator failure traps and Fail-safe Clock Monitoring 
 
 ## Description:
 

@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## DYNAMIC TUNING OF INTERNAL FAST RC OSCILLATOR 
+## Dynamic tuning of Internal Fast RC Oscillator 
 
 ## Description:
 

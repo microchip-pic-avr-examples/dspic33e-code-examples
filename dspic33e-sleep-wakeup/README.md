@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## FAST WAKE_UP FROM SLEEP MODE 
+## Fast wake-up from SLEEP mode 
 
 ## Description:
 
