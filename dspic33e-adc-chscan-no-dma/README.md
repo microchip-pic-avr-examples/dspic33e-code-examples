@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## ADC CHANNEL SCANNING WITHOUT DMA 
+## ADC Channel Scanning without DMA 
 
 ## Description:
 

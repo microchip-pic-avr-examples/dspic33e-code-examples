@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## CROSSWIRE COMMUNICATION BETWEEN CAN 1 AND CAN 2 MODULES 
+## Crosswire Communication between CAN 1 and CAN 2 modules 
 
 ## Description:
 

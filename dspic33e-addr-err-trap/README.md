@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## ADDRESS ERROR TRAPS FOR EASY DEBUGGING 
+## Address Error Traps for Easy Debugging 
 
 ## Description:
 

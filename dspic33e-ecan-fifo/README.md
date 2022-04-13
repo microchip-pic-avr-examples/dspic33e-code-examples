@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## TRANSMITTING MULTIPLE MESSAGES FROM CAN1 AND RECEIVING IT IN CAN2 FIFO 
+## Transmitting multiple messages from CAN1 and receiving it in CAN2 FIFO 
 
 ## Description:
 

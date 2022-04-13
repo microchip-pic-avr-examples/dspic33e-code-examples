@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## MANUAL EDS USAGE 
+## Manual EDS Usage code example
 
 ## Description:
 

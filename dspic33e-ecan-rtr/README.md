@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## TRANSMITTING A REMOTE MESSAGE FROM CAN1 AND REQUESTING TX FROM CAN2
+## Transmitting a Remote message from CAN1 and requesting TX from CAN2
 
 ## Description:
 

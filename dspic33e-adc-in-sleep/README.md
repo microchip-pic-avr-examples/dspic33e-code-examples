@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## ADC CONVERSION IN SLEEP MODE 
+## ADC Conversion in Sleep mode 
 
 ## Description:
 

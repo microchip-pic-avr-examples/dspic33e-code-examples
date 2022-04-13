@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## EXTERNAL INTERRUPT PINS - CONFIGURATION AND USE 
+## External interrupt pins - Configuration and Use
 
 ## Description:
 

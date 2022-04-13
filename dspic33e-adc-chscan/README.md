@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## ADC CHANNEL SCANNING 
+## ADC Channel Scanning 
 
 ## Description:
 

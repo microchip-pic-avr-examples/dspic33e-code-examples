@@ -1,6 +1,6 @@
 ![image](../images/microchip.jpg)
 
-## AUTOMATIC EDS USAGE 
+## Automatic EDS Usage code example 
 
 ## Description:
 
