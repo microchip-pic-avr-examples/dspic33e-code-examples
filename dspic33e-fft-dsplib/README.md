@@ -22,29 +22,29 @@ The input signal for our example will be 256 points of a Square wave signal of f
 The FFT operation is performed on the input signal, in-place. This means that the output of the FFT resides in the same RAM locations where the
  input signal used to reside. The FFT is performed in the following steps:
 
-1. Initialization: Generate Twiddle Factor Coefficients and store them in X-RAM or alternately use twiddle factor coefficients stored in
+1.Initialization: Generate Twiddle Factor Coefficients and store them in X-RAM or alternately use twiddle factor coefficients stored in
  Program Flash.
 
-2. Scale the input signal to lie within the range [-0.5, +0.5]. For fixed point fractional input data, this translates to input samples in 
+2.Scale the input signal to lie within the range [-0.5, +0.5]. For fixed point fractional input data, this translates to input samples in 
 the range [0xC000,0x3FFF]. The scaling is achieved by simply right-shifting the input samples by 1 bit, assuming the input samples lie 
 in the fixed point range [0x8000,0x7FFF] or [-1,+1).
 
-3. Convert the real input signal vector to a complex vector by placing zeros in every other location to signify a complex input whose
+3.Convert the real input signal vector to a complex vector by placing zeros in every other location to signify a complex input whose
  imaginary part is 0x0000.
 
-4. Butterfly computation: This is achieved by performing a call to the FFTComplexIP() function.
+4.Butterfly computation: This is achieved by performing a call to the FFTComplexIP() function.
 
-5. Bit-Reversed Re-ordering: The output array is re-ordered to be in bit-reversed order of the addresses. This is achieved by a function
+5.Bit-Reversed Re-ordering: The output array is re-ordered to be in bit-reversed order of the addresses. This is achieved by a function
  call to BitReverseComplex().
 
-6. SquareMagnitude computation: We then need to compute the magnitude of each complex element in the output vector, so that we can estimate 
+6.SquareMagnitude computation: We then need to compute the magnitude of each complex element in the output vector, so that we can estimate 
 the energy in each spectral component/frequency bin. This is achieved by a call to a special C-callable routine, SquareMagnitudeCplx(), 
 written in assembler language. This routine will  be incorporated into the DSP library in future revisions of the C30 toolsuite. At that time,
  you may remove the source file, cplxsqrmag.s from the project and include the latest DSP library file, libdsp-coff.a.
 
-7. Peak-picking: We then find the frequency component with the largest energy by using the VectorMax() routine in the DSP library.
+7.Peak-picking: We then find the frequency component with the largest energy by using the VectorMax() routine in the DSP library.
 
-8. Frequency Calculation: The value of the spectral component with the highest energy, in Hz, is calculated by multiplying the array index of 
+8.Frequency Calculation: The value of the spectral component with the highest energy, in Hz, is calculated by multiplying the array index of 
 the largest element in the output array with the spectral (bin) resolution ( = sampling rate/FFT size).
 
 ## Hardware Used
@@ -55,6 +55,6 @@ the largest element in the output array with the spectral (bin) resolution ( = s
 	
 ## Software Used 
 
-- MPLAB® X IDE v5.50 or newer (https://www.microchip.com/mplabx)
-- MPLAB® XC16 v1.70 or newer (https://www.microchip.com/xc)
+- MPLAB® X IDE v6.00 or newer (https://www.microchip.com/mplabx)
+- MPLAB® XC16 v2.00 or newer (https://www.microchip.com/xc)
 

@@ -10,11 +10,11 @@
       "shortDescription":"ADC Sampling and IIR Filtering",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=5.50.0"
+         "semverRange":">=6.0"
       },
       "compiler":{
          "name":"XC16",
-         "semverRange":"^1.70.0"
+         "semverRange":"^2.0"
       },
       "dfp":{
          "name":"dsPIC33E-GM-GP-MC-GU-MU_DFP",
@@ -26,7 +26,7 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"DSPIC33EP512GM710",
+            "name":"dsPIC33EP512GM710",
             "versionRange":"*"
          }
       },
