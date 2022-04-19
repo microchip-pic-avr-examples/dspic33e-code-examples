@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-atan2",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"atan2 Function",
       "projectName":"dspic33e-atan2",
       "shortDescription":"atan2 Function",
