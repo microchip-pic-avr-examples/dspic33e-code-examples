@@ -4,17 +4,17 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-adc-fir-dma",
-      "version":"0.1.0",
+      "version":"1.0.0",
       "displayName":"ADC Sampling and FIR Filtering",
       "projectName":"dspic33e-adc-fir-dma",
       "shortDescription":"ADC Sampling and FIR Filtering",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=5.50.0"
+         "semverRange":">=6.00"
       },
       "compiler":{
          "name":"XC16",
-         "semverRange":"^1.70.0"
+         "semverRange":"^2.00"
       },
       "dfp":{
          "name":"dsPIC33E-GM-GP-MC-GU-MU_DFP",
@@ -26,7 +26,7 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"DSPIC33EP512GM710",
+            "name":"dsPIC33EP512GM710",
             "versionRange":"*"
          }
       },

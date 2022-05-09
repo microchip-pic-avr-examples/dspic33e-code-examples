@@ -1,0 +1,44 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.3.0",
+      "name":"com.microchip.mplabx.project.dspic33e-ptg-adc",
+      "version":"1.0.0",
+      "displayName":"PTG and ADC",
+      "projectName":"dspic33e-ptg-adc",
+      "shortDescription":"PTG and ADC",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=6.00"
+      },
+      "compiler":{
+         "name":"XC16",
+         "semverRange":"^2.00"
+      },
+      "dfp":{
+         "name":"dsPIC33E-GM-GP-MC-GU-MU_DFP",
+         "semverRange":"^1.3.85"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"dsPIC33EP512GM710",
+            "versionRange":"*"
+         }
+      },
+	  "peripherals":[
+		"PTG",
+		"PWM",
+		"ADC"
+      ],
+      "keywords":[
+		"PTG",
+		"PWM",
+		"ADC"
+      ]
+   }
+}

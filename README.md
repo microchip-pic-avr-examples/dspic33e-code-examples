@@ -1,8 +1,8 @@
 ![image](images/microchip.jpg) 
 
-## DSPIC33E CODE EXAMPLES
+## dsPIC33E Code Examples
 
-This repository contains the code examples for DSPIC33E Device Families.
+This repository contains the code examples for dsPIC33E device families.
 
 
 
