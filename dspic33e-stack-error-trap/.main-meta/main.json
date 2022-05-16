@@ -33,7 +33,8 @@
 	  "peripherals":[
       ],
       "keywords":[
-		"Stack"
+		"Stack",
+		"Trap"
       ]
    }
 }
