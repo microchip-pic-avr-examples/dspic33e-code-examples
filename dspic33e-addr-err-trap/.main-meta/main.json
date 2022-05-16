@@ -33,8 +33,6 @@
 	  "peripherals":[
       ],
       "keywords":[
-		"Address",
-		"Error",
 		"Trap"
       ]
    }
