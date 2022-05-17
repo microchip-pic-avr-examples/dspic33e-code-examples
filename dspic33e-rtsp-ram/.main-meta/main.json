@@ -33,6 +33,8 @@
 	  "peripherals":[
       ],
       "keywords":[
+		"RTSP",
+		"RAM"
       ]
    }
 }
