@@ -5,9 +5,9 @@
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-fft-dsplib",
       "version":"1.0.0",
-      "displayName":"FFT dsplib",
+      "displayName":"FFT implementataion in dsPIC33E",
       "projectName":"dspic33e-fft-dsplib",
-      "shortDescription":"FFT dsplib",
+      "shortDescription":"Example code for dsPIC33E devices, demonstrating the implementation of FFT operations using the XC16/XC-DSC DSP Library.",
       "ide":{
          "name":"MPLABX",
          "semverRange":">=6.00"
@@ -18,7 +18,7 @@
       },
       "dfp":{
          "name":"dsPIC33E-GM-GP-MC-GU-MU_DFP",
-         "semverRange":"^1.3.85"
+         "semverRange":"^1.7.316"
       },
       "device":{
          "metaDataVersion":"1.0.0",
@@ -33,7 +33,9 @@
 	  "peripherals":[
       ],
       "keywords":[
-         "DSP"
+         "DSP",
+		 "FFT",
+		 "Algorithm"
       ]
    }
 }
