@@ -4,7 +4,7 @@
    "content":{
       "metaDataVersion":"1.3.0",
       "name":"com.microchip.mplabx.project.dspic33e-fft-dsplib",
-      "version":"1.0.0",
+      "version":"1.0.1",
       "displayName":"FFT implementataion in dsPIC33E",
       "projectName":"dspic33e-fft-dsplib",
       "shortDescription":"Example code for dsPIC33E devices, demonstrating the implementation of FFT operations using the XC16/XC-DSC DSP Library.",
