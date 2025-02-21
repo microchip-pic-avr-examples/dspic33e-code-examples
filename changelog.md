@@ -1,4 +1,4 @@
-# dsPIC33E Code Examples v0.1.1
+# dsPIC33E Code Examples v1.0.1
 ### Release Highlights
 
 Minor corrections on [FFT code example](dspic33e-fft-dsplib).
