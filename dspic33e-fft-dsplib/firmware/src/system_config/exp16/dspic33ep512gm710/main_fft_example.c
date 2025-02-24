@@ -14,7 +14,7 @@
     of an input signal and then the peak frequency is calculated.
 *******************************************************************************/
 /*******************************************************************************
-Copyright (c) 2012 released Microchip Technology Inc.  All rights reserved.
+Copyright (c) 2025 released Microchip Technology Inc.  All rights reserved.
 
 Microchip licenses to you the right to use, modify, copy and distribute
 Software only when embedded on a Microchip microcontroller or digital signal
@@ -182,7 +182,7 @@ int main(void)
     VectorMax(FFT_BLOCK_LENGTH/2, output, &peakFrequencyBin);
 
     /* Compute the frequency (in Hz) of the largest spectral component */
-    peakFrequency = peakFrequencyBin*(SAMPLING_RATE/FFT_BLOCK_LENGTH);
+    peakFrequency = (uint32_t) peakFrequencyBin*((float)SAMPLING_RATE/FFT_BLOCK_LENGTH);
 
 #ifdef TEST_MODE
   while(1)

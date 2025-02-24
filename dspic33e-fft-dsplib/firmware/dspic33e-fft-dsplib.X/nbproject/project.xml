@@ -14,7 +14,6 @@
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>../src</sourceRootElem>
-                <sourceRootElem>C:/Program Files (x86)/Microchip/xc16/v1.22/support/generic/h</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
